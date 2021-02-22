@@ -5,26 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="bar.css">
 <link rel="stylesheet" href="/assets/scrollbar.css">
-<script>
-    function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-</script>
+
 
 </head>
 <body>
     
-    <p style="display: none;" id="code"><link rel="stylesheet" href="bar.css"></p>
 
 <div class="sticky"><a href="index.html" target="blank"><h1>Scrollbar #1</h1></a></div>
-    <div class="stickybottom">
-        <a class="btn" onclick="copyToClipboard('code')">Copy code</a>
-        <a class="btn" href="#">Download</a>
-    </div>
+<div class="stickybottom">
+    <input type="text" value="@import url('https://scrollhub.pixel-fy.com/bars/1/bar.css');" id="myInput">
+    <a class="btn" onclick="myFunction()">Copy Code</a>
+    <script src="/assets/copy.js"></script>
+        </div>
 
 <div class="space">
 </div>

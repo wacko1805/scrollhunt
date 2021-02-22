@@ -61,8 +61,31 @@ h1:hover {
     display: inline-block;
     font-size: 16px;
     transition: 0.3s;
+    height: 25px;
 }
 .btn:hover {
     background-color: #9088d4;
     cursor: pointer;
 }
+input[type=text] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+    height: 19px;
+    border: 3px #98acf8 solid;
+    color: #393e46;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e8e8e8;
+  }
+   

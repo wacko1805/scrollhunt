@@ -14,26 +14,22 @@ body {
 }
 
 
-#header {
+header {
     background-color: #f4f4f2;
     padding-left: 2vw;
-    position: fixed; /* Fixed position - sit on top of the page */
-    top: 0;
-    width: 100%; /* Full width */
     font-size: 4vw;
     color: #9088d4;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     transition: 0.2s;
-    margin-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -100px;
     
 }
-#header a:hover {
+header a:hover {
     color: #9F88D4;
 }
-#header a {
+header a {
     text-decoration: none;
     color: #9088d4;
 }
@@ -69,27 +65,29 @@ nav a {
     font-family: 'Lato', sans-serif;
     padding-right: 3px;
     transition: 0.3s;
+    padding-right: 10px;
 }
 nav a:hover {
     color: #9ad3bc;
 }
     </style>
     <body>
-        <div id="header">
+        <header>
             <a href="/"><h1>scrollhub</h1></a>
-        </div>
+        </header>
 
-        <div style="margin-top: 25%;">
             <nav>
                 <a href="#">how to use</a>
                 <a href="#">about</a>
                 <a href="#">create your own</a>
             </nav>
+            
             <div class="main" style="margin-top: 5%;">
         <iframe src="bars/1/index.html"></iframe>
         <iframe src="bars/2/index.html"></iframe>
         <iframe src="bars/3/index.html"></iframe>
         <iframe src="bars/4/index.html"></iframe>
+        <iframe src="bars/5/index.html"></iframe>
 
         <script>
             window.onscroll = function() {scrollFunction()};
