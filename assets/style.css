@@ -4,6 +4,7 @@
 body {
     background-color: #f4f4f2;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -109,4 +110,28 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #9088d4;
     cursor: pointer;
+}
+
+.main h2 {
+    font-size: 35px;
+}
+.main b {
+    color: #9088d4;
+}
+.main p {
+    font-size: 22px;
+}
+
+code {
+    font-size: 20px;
+    color: gray;
+}
+
+.main a {
+    text-decoration: none;
+    color: #9F88D4;
+    transition: 0.3s;
+}
+.main a:hover {
+    color: #98acf8;
 }
