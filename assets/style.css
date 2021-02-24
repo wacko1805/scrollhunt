@@ -72,3 +72,41 @@ nav a:hover {
     color: #9F88D4;
     font-family: 'Poppins', sans-serif;
 }
+
+input[type=text] {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+    border: 3px #98acf8 solid;
+    color: #393e46;
+    width: 50%;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: #98acf8; /* Green */
+    border: none;
+    color: white;
+    padding: 17px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+}
+input[type=submit]:hover {
+    background-color: #9088d4;
+    cursor: pointer;
+}
