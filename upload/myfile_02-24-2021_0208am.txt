@@ -1,3 +1,0 @@
-User: jack
-contact: @wacko1805
-code: random code

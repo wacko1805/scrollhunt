@@ -1,5 +1,5 @@
 <?php
-header('Location: uploaded.html');
+header('Location: https://scrollhunt.pixel-fy.com/upload/uploaded.html');
 
 if(isset($_POST['submit'])){
 $Name = "User: ".$_POST['name']."
